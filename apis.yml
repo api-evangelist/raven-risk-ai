@@ -1,7 +1,26 @@
 aid: raven-risk-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raven-risk-ai.png
 name: Raven Risk AI
-description: Raven Risk AI is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Raven Risk AI is an AI platform for credit managers and investment professionals
+  that automates credit analysis workflows — financial data analysis, due diligence, risk
+  assessment, and report generation — to help teams assess and monitor investments with
+  greater speed and precision. Founded in 2023 by Blair Fleming and based in Manhattan, New
+  York, the company is backed by 500 Global. The platform integrates internal and external
+  data sources, applies fine-tuned AI models for credit assessment, and supports deal
+  tracking and firm knowledge management. No public API, developer portal, or documentation
+  is currently published; this profile tracks the company as an API Evangelist network lead
+  pending an eventual developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/raven-risk-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Credit Risk
+- Financial Services
+- Fintech
+- Due Diligence
+- Risk Assessment
+- Underwriting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,14 @@ maintainers:
 common:
 - type: Website
   url: https://ravenrisk.ai
+- type: About
+  url: https://ravenrisk.ai/our-company
+- type: LinkedIn
+  url: https://www.linkedin.com/company/raven-risk/
+- type: DomainSecurity
+  url: security/raven-risk-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
