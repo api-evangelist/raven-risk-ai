@@ -46,7 +46,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Credit Risk
-- Financial-Services
+- Financial Services
 - Fintech
 - Due Diligence
 - Risk Assessment
@@ -60,6 +60,7 @@ tags_raw:
 - Due Diligence
 - Risk Assessment
 - Underwriting
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
